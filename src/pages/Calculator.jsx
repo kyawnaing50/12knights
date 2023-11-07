@@ -1,36 +1,3 @@
-// import React, { useState } from 'react'
-
-// const Calculator = () => {
-//     const [result, setResult] = useState("");
-//     const handleClick = e => setResult(result.concat(e.target.id));
-//     const clear = () => setResult("");
-//     const deleteEl = () => setResult(result.slice((0, -1)));
-
-//     const calculate = () => { 'calculate is declared but its value is never read'
-//         try {
-//             setResult(eval(result).toString())
-//         }
-//         catch (error) { 
-//            setResult('Error') 
-//         }
-//     }
-//   return (
-//     <div className="flex flex-col pt-10 pl-44 pb-5 pr-4 mt-10 mb-5">
-//       <input type="text" value={result} disabled />
-
-//       <div className=" mt-5 flex border gap-5" >
-//         <button className='operator' onClick={clear}>AC</button>
-//         <button className=' operator' onClick={deleteEl}>DE</button>
-//         <button id='.' className='operator' onClick={handleClick}>.</button>
-//         <button id='/' className='operator' onClick={handleClick}>/</button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Calculator;
-
-
 import React, { useState } from 'react'
 import ResultScreen from '../components/ResultScreen';
 import Keyboard from '../components/Keyboard';

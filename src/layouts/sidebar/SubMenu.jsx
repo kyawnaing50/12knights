@@ -12,7 +12,7 @@ const SubMenu = ({ data }) => {
         className={`link ${pathname.includes(data.name) && "text-blue-600"}`}
         onClick={() => setSubMenuOpen(!subMenuOpen)}
       >
-        <data.icon size={20} className="min-w-max" />
+        <data.icon size={20} className="min-w-max text-indigo-600" />
         <p className="flex-1 capitalize text-xs">{data.name}</p>
         <IoIosArrowDown
           className={` ${subMenuOpen && "rotate-180"} duration-200 `}

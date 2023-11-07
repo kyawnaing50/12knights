@@ -7,12 +7,16 @@ import { motion } from "framer-motion";
 import { IoIosArrowBack } from "react-icons/io";
 import { SlSettings } from "react-icons/sl";
 import { TbSortAscendingNumbers } from "react-icons/tb";
-import { BsPerson } from "react-icons/bs";
-import { HiOutlineDatabase } from "react-icons/hi";
-import { TbReportAnalytics } from "react-icons/tb";
-import { RiBuilding3Line } from "react-icons/ri";
+import { GiRadarDish } from "react-icons/gi";
+import { BiSolidMap } from "react-icons/bi";
+import { MdOutlineCalculate } from "react-icons/md";
+import { GiNetworkBars } from "react-icons/gi"; 
+import { RiComputerLine } from "react-icons/ri";
+import { GiSatelliteCommunication } from "react-icons/gi";
 import { useMediaQuery } from "react-responsive";
-import { MdMenu } from "react-icons/md";
+import { MdMenu } from "react-icons/md"; 
+import { FcElectricalSensor } from "react-icons/fc";
+import { MdAirplanemodeInactive } from "react-icons/md";
 import { NavLink, useLocation, useRoutes } from "react-router-dom";
 
 const Sidebar = () => {
@@ -69,13 +73,13 @@ const Sidebar = () => {
   const subMenusList = [
     {
       name: "Radar",
-      icon: RiBuilding3Line,
+      icon: GiRadarDish,
       menus: [
+        "Three Stages",
         "Coherent radar",
         "non-coherent radar",
         "radar formula",
         "radar bands",
-        "Three Stages",
         "Estimate",
         "α-β-Γ filter",
         "Doppler Effects",
@@ -84,7 +88,7 @@ const Sidebar = () => {
     },
     {
       name: "Map",
-      icon: TbReportAnalytics,
+      icon: BiSolidMap,
       menus: [
         "Meridian",
         "Sphere Level",
@@ -96,12 +100,12 @@ const Sidebar = () => {
     },
     {
       name: "Network",
-      icon: TbReportAnalytics,
+      icon: GiNetworkBars,
       menus: ["7 Layers", "Switch", "Router", "IP Address"],
     },
     {
       name: "Electric",
-      icon: TbReportAnalytics,
+      icon: FcElectricalSensor,
       menus: [
         "Current",
         "AC/DC,Voltage",
@@ -112,7 +116,7 @@ const Sidebar = () => {
     },
     {
       name: "Computer",
-      icon: TbReportAnalytics,
+      icon: RiComputerLine,
       menus: [
         "OS",
         "Platform",
@@ -128,12 +132,12 @@ const Sidebar = () => {
     },
     {
       name: "Communication",
-      icon: TbReportAnalytics,
+      icon: GiSatelliteCommunication,
       menus: ["Radio relay", "Telephone"],
     },
     {
       name: "Calculation",
-      icon: TbReportAnalytics,
+      icon: MdOutlineCalculate,
       menus: ["Oil", "Car", "Aircraft"],
     },
   ];
@@ -168,7 +172,7 @@ const Sidebar = () => {
         <div className="flex flex-col  h-full">
           <ul className="whitespace-pre px-2.5 text-[0.9rem] flex flex-col gap-1  font-medium overflow-x-hidden scrollbar-thin scrollbar-track-white scrollbar-thumb-slate-100   md:h-[68%] h-[70%]">
             {(open || isTabletMid) && (
-              // py-2 border-slate-300 
+              // py-2 border-slate-300
               <div className="">
                 <small className="pl-3 text-slate-500 inline-block mb-2">
                   {/* Product categories */}
@@ -180,25 +184,27 @@ const Sidebar = () => {
                 ))}
               </div>
             )}
-
             <li className="">
               <NavLink to={"/"} className="link">
                 <TbSortAscendingNumbers
                   size={20}
-                  className="min-w-max text-green-500"
+                  className="min-w-max text-indigo-600"
                 />
                 <span className=" text-xs">Number System</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/iff"} className="link">
-                <SlSettings size={20} className="min-w-max" />
+              <NavLink to={"/fof"} className="link">
+                <MdAirplanemodeInactive
+                  size={20}
+                  className="min-w-max text-indigo-600"
+                />
                 <span className=" text-xs">IFF</span>
               </NavLink>
             </li>
             <li className="">
               <NavLink to={"/settings"} className="link">
-                <SlSettings size={20} className="min-w-max" />
+                <SlSettings size={20} className="min-w-max text-indigo-600" />
                 <span className=" text-xs">Settings</span>
               </NavLink>
             </li>
