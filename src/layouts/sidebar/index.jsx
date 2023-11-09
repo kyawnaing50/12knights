@@ -104,7 +104,7 @@ const Sidebar = () => {
       menus: ["7 Layers", "Switch", "Router", "IP Address"],
     },
     {
-      name: "Electric",
+      name: "Electricity",
       icon: FcElectricalSensor,
       menus: [
         "Current",
