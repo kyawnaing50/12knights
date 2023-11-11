@@ -75,12 +75,12 @@ const Sidebar = () => {
       name: "Radar",
       icon: GiRadarDish,
       menus: [
+        "Estimate",
         "Three Stages",
         "Coherent radar",
         "non-coherent radar",
         "radar formula",
         "radar bands",
-        "Estimate",
         "α-β-Γ filter",
         "Doppler Effects",
         "Normal Distribution Law",
