@@ -3,12 +3,12 @@ import decimal from '../../assets/number/decimal.png'
 
 const DecimalNumber = () => {
   return (
-    <div>
-      <p className="pt-2 text-sm text-justify">
+    <div className="pt-3 grid md:grid-cols-2 sm:grid-cols-1 pb-2 mr-3">
+      <p className="pt-2 text-sm text-justify tracking-wider leading-6">
         Decimal number system သည် 0 to 9 အခြေခံဖြစ်သောကြောင့် base 10 number
         system ဟု ခေါ်ပါသည်။ ဥပမာ 1475 ဟူသော ကိန်းဂဏန်းတစ်ခု၏ decimal တန်ဖိုးမှာ
         အောက်ပါအတိုင်းဖြစ်သည်-
-        <div className=" pl-10 max-h-fit mx-auto pt-2 pb-2">
+        <div className=" pl-10 max-h-fit mx-auto pt-2 pb-2 tracking-wider leading-6">
           <ul className=" text-left">
             <li>1457= (1×103) + (4×102) + (5×101) + (7×100)</li>
             <li>1457= (1×1000) + (4×100) + (5×10) + (7×1)</li>
@@ -18,13 +18,13 @@ const DecimalNumber = () => {
       </p>
       <div className="">
         <img
-          class=" h-60 max-h-fit mx-auto pt-4 pb-2 rounded-2xl"
+          class=" h-32 max-h-fit mx-auto pt-4 pb-2 rounded-2xl"
           src={decimal}
           alt="image description"
         />
-        <p className=" text-center text-sm text-pink-800">
+        {/* <p className=" text-center text-sm text-pink-800">
           Figure- decimal Number
-        </p>
+        </p> */}
       </div>
     </div>
   );

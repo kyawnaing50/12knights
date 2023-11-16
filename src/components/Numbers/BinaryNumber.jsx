@@ -3,8 +3,8 @@ import binary from "../../assets/number/binary.png";
 
 const BinaryNumber = () => {
   return (
-    <div>
-      <p className=" flex pr-2 pt-3 text-sm text-justify">
+    <div className="pt-3 grid md:grid-cols-2 sm:grid-cols-1 pb-2 mr-3">
+      <p className=" flex pr-2 pt-3 text-sm text-justify tracking-wider leading-6">
         Binary number system သည် 0 နှင့်1 ကို အခြေပြုထားသော number system
         ဖြစ်သောကြောင့် base 2 Number system ဟု ခေါ်ပါသည်။ Binary number စနစ်တွင်
         ကိန်းဂဏန်းတစ်ခု၏ ပေါင်းလဒ်တစ်ခုချင်းစီကို 2 နှင့် မြောက်ပေးရသည်။
@@ -13,13 +13,13 @@ const BinaryNumber = () => {
       </p>
       <div className="">
         <img
-          class=" mt-2 h-60 max-h-fit mx-auto pt-4 pb-2 rounded-2xl"
+          class=" mt-2 h-32 max-h-fit mx-auto pt-4 pb-2 rounded-2xl"
           src={binary}
           alt="image description"
         />
-        <p className=" mt-2 text-center text-sm text-pink-800">
+        {/* <p className=" mt-2 text-center text-sm text-pink-800">
           figure- Binary Number
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -139,8 +139,8 @@ const Fof = () => {
           <AutherComponet
             img={KZH}
             name="Kyaw Zaw Hein"
-            degree="BCSc"
-            email="kyawzaw1500@gmail.com"
+            degree="BSc(Elec)"
+            email="kokyawgyi@gmail.com"
           />
           <AutherComponet
             img={kn}

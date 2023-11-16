@@ -9,30 +9,30 @@ const Estimate = () => {
   return (
     <div>
       <Title title="Estimate" subtitle="Algorithm" />
-      <img
-        class=" rounded-3xl h-96 max-h-fit mx-auto pt-6 pb-2"
-        src={estimate}
-        alt="image description"
-      />
-      <p className=" text-center text-sm text-pink-800 pb-4">
-        figure - Accuracy and Precission in Estimation
-      </p>
+      <div className="pt-3 grid md:grid-cols-2 sm:grid-cols-1 pb-2 mr-3">
+        <p className="pt-2 text-sm text-justify tracking-wider leading-8">
+          <span className="">Estimate Algorithm</span> ဆိုတာ System
+          တစ်ခုရဲ့နောက်ကွယ်က အခြေအနေကို တွက်ချက်တဲ့ algorithm တစ်ခုဖြစ်ပါတယ်။
+          ဥပမာ ဝေဟင်မှာပျံသန်းနေတဲ့ လေယာဉ်တစ်စီးရဲ့ တကယ်ရောက်ရှိနေတဲ့နေရာကို
+          အတိအကျသိနိုင်ဖို့ဆိုတာ မလွယ်ကူပါဘူး။ တကယ်ရောက်ရှိတဲ့နေရာကို
+          သိနိုင်နိုင်ဖို့ဆိုရင် ရေဒါကိုအသုံးပြုပြီး ဖြေရှင်းဆောင်ရွက်ကြရ ပါတယ်။
+          ရေဒါအရေအတွက်များလေ ပိုမိုတိကျတဲ့ အဖြေကို ရရှိလေလေဖြစ်တာကြောင့်
+          ရေဒါအရေအတွက်အများကြီး သုံးပြီး Tracking algorithm လို့ခေါ်တဲ့ Kalman
+          Filter အသုံးပြုပြီး ဖြေရှင်းဆောင်ရွက်ကြရပါတယ်။ ဒါပေမဲ့
+          အဲ့ဒီတွက်ချက်မှုတွေအားလုံးဟာ Estimate တွေပဲဖြစ်ပါတယ်။ Estimate
+          Algorithm မှာ Accuracy နဲ့ Precision ဟာ အခြေခံ သဘောတရားတွေဖြစ်ပါတယ်။
+          Accuracyဆိုတာ တွက်ချက်မှုရလဒ်ဟာ တန်ဖိုးအမှန်နဲ့
+          ဘယ်လောက်ထိနီးစပ်သလဲဆိုတာကို ဖော်ပြပေးတာ ဖြစ်ပြီးတော့
+          Precisionဆိုတာကတော့ တန်ဖိုးတစ်ခုကို အကြိမ်ကြိမ်တိုင်းတာပြီး
+          ရရှိလာတဲ့တန်ဖိုးများရဲ့ ပြောင်းလဲမှုနှုန်းပါပဲ။
+        </p>
+        <img
+          class=" mt-2 h-64 max-h-fit mx-auto pt-4 pb-2 rounded-2xl"
+          src={estimate}
+          alt="image description"
+        />
+      </div>
       <p className="pt-2 text-sm text-justify tracking-wider leading-8">
-        <span className=" pl-8">Estimate Algorithm</span> ဆိုတာ System
-        တစ်ခုရဲ့နောက်ကွယ်က အခြေအနေကို တွက်ချက်တဲ့ algorithm တစ်ခုဖြစ်ပါတယ်။ ဥပမာ
-        ဝေဟင်မှာပျံသန်းနေတဲ့ လေယာဉ်တစ်စီးရဲ့ တကယ်ရောက်ရှိနေတဲ့နေရာကို
-        အတိအကျသိနိုင်ဖို့ဆိုတာ မလွယ်ကူပါဘူး။ တကယ်ရောက်ရှိတဲ့နေရာကို
-        သိနိုင်နိုင်ဖို့ဆိုရင် ရေဒါကိုအသုံးပြုပြီး ဖြေရှင်းဆောင်ရွက်ကြရ ပါတယ်။
-        ရေဒါအရေအတွက်များလေ ပိုမိုတိကျတဲ့ အဖြေကို ရရှိလေလေဖြစ်တာကြောင့်
-        ရေဒါအရေအတွက်အများကြီး သုံးပြီး Tracking algorithm လို့ခေါ်တဲ့ Kalman
-        Filter အသုံးပြုပြီး ဖြေရှင်းဆောင်ရွက်ကြရပါတယ်။ ဒါပေမဲ့
-        အဲ့ဒီတွက်ချက်မှုတွေအားလုံးဟာ Estimate တွေပဲဖြစ်ပါတယ်။ Estimate Algorithm
-        မှာ Accuracy နဲ့ Precision ဟာ အခြေခံ သဘောတရားတွေဖြစ်ပါတယ်။ Accuracyဆိုတာ
-        တွက်ချက်မှုရလဒ်ဟာ တန်ဖိုးအမှန်နဲ့ ဘယ်လောက်ထိနီးစပ်သလဲဆိုတာကို
-        ဖော်ပြပေးတာ ဖြစ်ပြီးတော့ Precisionဆိုတာကတော့ တန်ဖိုးတစ်ခုကို
-        အကြိမ်ကြိမ်တိုင်းတာပြီး ရရှိလာတဲ့တန်ဖိုးများရဲ့ ပြောင်းလဲမှုနှုန်းပါပဲ။
-        {/* </p> */}
-        {/* <p className="pt-2 text-sm text-justify"> */}
         High precision system မှာ Lower variance တွေကိုထုတ်ပေးပြီး Low precision
         system မှာတော့ High variance တွေကို ထုတ်ပေးတယ်။ Variance
         ရဲ့တန်ဖိုးလွှမ်းမိုးမှုကို averaging or smoothing လုပ်ပြီး

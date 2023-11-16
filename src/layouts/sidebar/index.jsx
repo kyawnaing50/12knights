@@ -101,7 +101,7 @@ const Sidebar = () => {
     {
       name: "Network",
       icon: GiNetworkBars,
-      menus: ["7 Layers", "Switch", "Router", "IP Address"],
+      menus: ["IP Address","7 Layers", "Switch", "Router"],
     },
     {
       name: "Electricity",

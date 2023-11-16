@@ -10,9 +10,9 @@ import AutherComponet from '../AutherComponet';
 const Meridian = () => {
   return (
     <div className="">
-      <div>
-        <Title title="Meridian" subtitle="" />
-        <p className="pt-2 text-sm text-justify">
+      <Title title="Meridian" subtitle="" />
+      <div className="pt-3 grid md:grid-cols-2 sm:grid-cols-1 pb-2 mr-3">
+        <p className="pt-2 text-sm text-justify tracking-wider leading-6">
           Meridian မျဉ်းဟူသည် ကမ္ဘာကြီး၏
           တောင်နှင့်မြောက်တွယ်တန်းထားသောမျဉ်းဖြစ်ပါသည်။ တနည်းအားဖြင့်
           လောင်ဂျီကျူးမျဉ်းဖြစ်ပါသည်။ Meridian သည် Great Circle ၏
@@ -20,13 +20,13 @@ const Meridian = () => {
           WGS84 မြေပုံစနစ်အရ ၂၀,၀၀၃.၉၃ ကီလိုမီတာ(၁၂,၄၂၉.၈၇မိုင်) ခန့်ရှိပါသည်။
         </p>
         <img
-          class=" h-60 max-h-fit mx-auto pt-4 pb-2"
+          class=" h-52 max-h-fit mx-auto pt-4 pb-2"
           src={meridian}
           alt="image description"
         />
-        <p className=" text-center text-sm text-pink-800 pb-4">
+        {/* <p className=" text-center text-sm text-pink-800 pb-4">
           figure - Meridian
-        </p>
+        </p> */}
       </div>
 
       {/* True Meridian */}
@@ -36,7 +36,7 @@ const Meridian = () => {
       <MagneticMeridian />
       <Title title="Axial" subtitle="Meridian" />
       <AxialMeridian />
-      
+
       <div className="">
         <Title title="သင်ခန်းစာပြုစု" subtitle="‌ရေးသားသူ" />
         <AutherComponet
