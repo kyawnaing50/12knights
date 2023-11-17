@@ -77,10 +77,8 @@ const Sidebar = () => {
       menus: [
         "Estimate",
         "Three Stages",
-        "Coherent radar",
-        "non-coherent radar",
-        "radar formula",
-        "radar bands",
+        "Military Use",
+        "Civil Use",
         "α-β-Γ filter",
         "Doppler Effects",
         "Normal Distribution Law",
@@ -185,7 +183,7 @@ const Sidebar = () => {
               </div>
             )}
             <li className="">
-              <NavLink to={"/"} className="link">
+              <NavLink to={"/number"} className="link">
                 <TbSortAscendingNumbers
                   size={20}
                   className="min-w-max text-indigo-600"

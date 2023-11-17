@@ -34,21 +34,21 @@ const IpAddress = () => {
           <div className="grid sm:grid-cols-1 md:grid-cols-3 justify-center">
             <AutherComponet
               img={THSN}
-              name="Thiha Sitt Naing"
-              degree="BCSc, MCSc"
-              email="thiha@gmail.com"
+              name="Advisor"
+              degree="Thiha Sitt Naing"
+              email="M.E(Automatic and Control)"
             />
             <AutherComponet
               img={NLH}
-              name="Nay Lin Htike"
-              degree="BCSc, MCSc"
-              email="naylinn@gmail.com"
+              name="Main Advisor"
+              degree="Nay Lin Htet"
+              email="BE.Mech(mechanical)"
             />
             <AutherComponet
               img={kn}
-              name="Kyaw Naing"
-              degree="BCSc, MCSc"
-              email="zayyarzawye@gmail.com"
+              name="Content Writer"
+              degree="Kyaw Naing"
+              email="MCSc"
             />
           </div>
         </div>

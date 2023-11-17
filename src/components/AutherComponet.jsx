@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AutherComponet = ({ img, name,degree,email }) => {
+const AutherComponet = ({ img,email, name,degree}) => {
   return (
     <div className=" pr-3 pl-3 py-3 px-3">
       <img

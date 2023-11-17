@@ -123,8 +123,8 @@ const Fof = () => {
         <Title title="Mode" subtitle="5" />
         <p className="pt-2 text-sm text-justify tracking-wider leading-6">
           Mode 5 ကတော့ Mode 4 ကို အဆင့်မြင့်ထားတာဖြစ်ပါတယ်။
-          လုံခြုံမှုအဆင့်အတန်းမြင့်မားပြီးတော့ မိမိမိတ်ဘက်လေယာဉ်များကိုအမျိုးအစား
-          ခွဲခြားတဲ့နေရာမှာ အသုံးပြုပါတယ်။
+          လုံခြုံမှုအဆင့်အတန်းမြင့်မားပြီးတော့
+          မိမိမိတ်ဘက်လေယာဉ်များကိုအမျိုးအစား ခွဲခြားတဲ့နေရာမှာ အသုံးပြုပါတယ်။
         </p>
       </div>
       <div className="  pt-6 justify-center">
@@ -132,21 +132,21 @@ const Fof = () => {
         <div className=" grid sm:grid-cols-1 md:grid-cols-3 justify-center">
           <AutherComponet
             img={NLH}
-            name="Nay Lin Htike"
-            degree="BE (E.C)"
-            email="kyawzaw1500@gmail.com"
+            name="Main Advisor"
+            degree="Nay Lin Htet"
+            email="BE.Mech(mechanical)"
           />
           <AutherComponet
             img={KZH}
-            name="Kyaw Zaw Hein"
-            degree="BSc(Elec)"
-            email="kokyawgyi@gmail.com"
+            name="Advisor"
+            degree="Kyaw Zaw Hein"
+            email="B.Sc(Electronic)"
           />
           <AutherComponet
             img={kn}
-            name="Kyaw Naing"
-            degree="BCSc, MCSc"
-            email="zayyarzawye@gmail.com"
+            name="Content Writer"
+            degree="Kyaw Naing"
+            email="MCSc"
           />
           {/* <AutherComponet
             img={lwin}

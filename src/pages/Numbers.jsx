@@ -49,9 +49,9 @@ const Numbers = () => {
         <Title title="သင်ခန်းစာပြုစု" subtitle="‌ရေးသားသူများ" />
         <AutherComponet
           img={kn}
-          name="Kyaw Naing"
-          degree="BCSc, MCSc"
-          email="zayyarzawye@gmail.com"
+          name="Content Writer"
+          degree="Kyaw Naing"
+          email="BCSc, MCSc"
         />
       </div>
     </div>

@@ -41,9 +41,9 @@ const Meridian = () => {
         <Title title="သင်ခန်းစာပြုစု" subtitle="‌ရေးသားသူ" />
         <AutherComponet
           img={kn}
-          name="Kyaw Naing"
-          degree="BCSc, MCSc"
-          email="zayyarzawye@gmail.com"
+          name="Content Writer"
+          degree="Kyaw Naing"
+          email="MCSc"
         />
       </div>
     </div>
