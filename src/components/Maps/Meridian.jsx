@@ -42,8 +42,8 @@ const Meridian = () => {
         <AutherComponet
           img={kn}
           name="Content Writer"
-          degree="Kyaw Naing"
-          email="MCSc"
+          degree="Kyaw Naing (M.C.Sc)"
+          email=""
         />
       </div>
     </div>
