@@ -57,15 +57,15 @@ const Estimate = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2  ">
           <AutherComponet
             img={kn}
-            name="Kyaw Naing"
-            degree="BCSc, MCSc"
-            email="zayyarzawye@gmail.com"
+            name="Editor"
+            degree="Kyaw Naing "
+            email="MCSc"
           />
           <AutherComponet
             img={AMK}
-            name="Aung Min Khant"
-            degree="BE, ME( E.C)"
-            email="wannaminkhant@gmail.com"
+            name="Content Creator"
+            degree="Aung Min Khant"
+            email="ME(E.C)"
           />
         </div>
       </div>
