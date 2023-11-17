@@ -4,8 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    base:"/12knights/",
-    host:true,
-  },
+  base:"/12knights/",
 });

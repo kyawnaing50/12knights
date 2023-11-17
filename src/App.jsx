@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
-import AllApps from "./pages/Numbers";
 // import Analytics from "./pages/Analytics";
 // import Authentication from "./pages/Authentication";
 // import Build from "./pages/Build";
@@ -10,6 +9,7 @@ import Fof from "./pages/Fof";
 import Map from "./pages/Map";
 import RadarPage from "./pages/RadarPage";
 import Network from "./pages/Network";
+import Numbers from "./pages/Numbers";
 // import Stroage from "./pages/Stroage";
 // import Footer from "./pages/Footer";
 // import Person from "./pages/Person";
@@ -19,7 +19,7 @@ const App = () => {
     <div className=" w-screen h-screen">
       <RootLayout>
         <Routes>
-          <Route path="/" element={<AllApps />} />
+          <Route path="/" element={<Numbers />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/Map/:mapID" element={<Map />} />
           <Route path="/Network/:netID" element={<Network />} />
