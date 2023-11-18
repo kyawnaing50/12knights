@@ -19,7 +19,7 @@ const App = () => {
     <div className=" w-screen h-screen">
       <RootLayout>
         <Routes>
-          <Route path="/number" element={<Numbers />} />
+          <Route path="/" element={<Numbers />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/Map/:mapID" element={<Map />} />
           <Route path="/Network/:netID" element={<Network />} />

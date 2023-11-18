@@ -183,7 +183,7 @@ const Sidebar = () => {
               </div>
             )}
             <li className="">
-              <NavLink to={"/number"} className="link">
+              <NavLink to={"/"} className="link">
                 <TbSortAscendingNumbers
                   size={20}
                   className="min-w-max text-indigo-600"
